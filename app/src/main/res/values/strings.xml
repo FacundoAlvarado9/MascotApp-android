@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MascotApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Mitos -->
+
+    <!--Titulos-->
+    <string name="titulo_mito_0">¡Bienvenido a la sección de Mitos!</string>
+    <string name="titulo_mito_1">Titulo Prueba</string>
+
+    <!--Descripciones-->
+    <string name="descripcion_mito_0">Vamos a mostrarte ciertos mitos que rondan acerca de las mascotas, y vamos a ver qué de cierto tienen estas afirmaciones.</string>
+    <string name="descripcion_mito_1">Descripcion prueba. Lorem ipsum dolor sit amet consectetur.</string>
+
+
+</resources>
