@@ -3,51 +3,61 @@
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:background="@drawable/gradient_8">
 
+<FrameLayout
+    android:id="@+id/frame2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:textSize="30sp"
-        android:layout_marginTop="69dp"
-        android:layout_marginLeft="7dp"
-        android:layout_marginRight="7dp"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="Elegí el calendario de vacunación que deseas ver:"
-        android:textColor="@color/White"
-        android:textStyle="bold" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:orientation="horizontal">
-
-
-        <Button
-            android:drawableTop="@drawable/perro"
-            android:id="@+id/btnVacunasPerros"
-            android:background="@color/White"
-            android:padding="10dp"
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="5dp"
-            android:text="Perros" />
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:layout_marginTop="69dp"
+            android:layout_marginLeft="7dp"
+            android:layout_marginRight="7dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:text="Elegí el calendario de vacunación que deseas ver:"
+            android:textColor="@color/White"
+            android:textStyle="bold" />
 
-        <Button
-            android:drawableTop="@drawable/gato"
-            android:id="@+id/btnVacunasGatos"
-            android:background="@color/White"
-            android:padding="10dp"
-            android:layout_margin="5dp"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Gatos" />
+            android:layout_centerInParent="true"
+            android:orientation="horizontal">
 
-    </LinearLayout>
 
+            <Button
+                android:drawableTop="@drawable/perro"
+                android:id="@+id/btnVacunasPerros"
+                android:background="@color/White"
+                android:padding="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:text="Perros" />
 
+            <Button
+                android:drawableTop="@drawable/gato"
+                android:id="@+id/btnVacunasGatos"
+                android:background="@color/White"
+                android:padding="10dp"
+                android:layout_margin="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gatos" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>
 
 
 </RelativeLayout>
