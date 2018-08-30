@@ -15,4 +15,11 @@
     <string name="descripcion_mito_1">Descripcion prueba. Lorem ipsum dolor sit amet consectetur.</string>
 
 
+    <string name="app_nombre">MascotApp</string>
+    <string name="descripcion_mascotapp1">Aplicación guía para el cuidado de mascotas.</string>
+
+    <string name="descripcion_mascotapp2">Desarrollada por el Club de Ciencias del Colegio Nuestra Señora de Fátima. En Río Gallegos, Santa Cruz, Argentina.</string>
+    <string name="title_activity_veterinarias">Veterinarias</string>
+
+
 </resources>

@@ -6,9 +6,11 @@
     tools:context=".Fragments.VeterinariasFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <Button
+        android:id="@+id/btnMapa"
+        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:text="Ir al mapa"/>
 
 </FrameLayout>
