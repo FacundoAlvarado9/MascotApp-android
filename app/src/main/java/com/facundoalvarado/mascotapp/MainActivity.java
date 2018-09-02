@@ -6,8 +6,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.facundoalvarado.mascotapp.Fragments.AlimentacionFragment;
+import com.facundoalvarado.mascotapp.Fragments.CreditosFragment;
 import com.facundoalvarado.mascotapp.Fragments.EnfermedadesFragment;
-import com.facundoalvarado.mascotapp.Fragments.GuiaFragment;
+import com.facundoalvarado.mascotapp.Fragments.InicialFragment;
 import com.facundoalvarado.mascotapp.Fragments.MitosFragment;
 import com.facundoalvarado.mascotapp.Fragments.VacunasFragment;
 import com.facundoalvarado.mascotapp.Fragments.VeterinariasFragment;
@@ -35,15 +36,15 @@ public class MainActivity extends AppCompatActivity {
         List<MenuItem> menuItems = new ArrayList<>();
         menuItems.add(new MenuItem("Alimentación", R.drawable.alimentacion_bg));
         menuItems.add(new MenuItem("Vacunación", R.drawable.vacunas_bg));
-        menuItems.add(new MenuItem("Guía del dueño", R.drawable.guia_bg));
         menuItems.add(new MenuItem("Mitos", R.drawable.mitos_bg));
         menuItems.add(new MenuItem("Enfermedades", R.drawable.enfermedades_bg));
         menuItems.add(new MenuItem("Veterinarias", R.drawable.veterinarias_bg));
+        menuItems.add(new MenuItem("Créditos", R.drawable.guia_bg));
 //        Añadiendo objetos al menu
         sNavigationDrawer.setMenuItemList(menuItems);
 
 //        Declarando fragment principal
-        fragmentClass =  AlimentacionFragment.class;
+        fragmentClass =  InicialFragment.class;
         try {
             fragment = (Fragment) fragmentClass.newInstance();
         } catch (Exception e) {
@@ -67,16 +68,16 @@ public class MainActivity extends AppCompatActivity {
                             fragmentClass = VacunasFragment.class;
                             break;
                         }case 2:{
-                            fragmentClass = GuiaFragment.class;
-                            break;
-                        }case 3:{
                             fragmentClass = MitosFragment.class;
                             break;
-                        }case 4:{
+                        }case 3:{
                             fragmentClass = EnfermedadesFragment.class;
                             break;
-                        }case 5:{
+                        }case 4:{
                             fragmentClass = VeterinariasFragment.class;
+                            break;
+                        }case 5:{
+                            fragmentClass = CreditosFragment.class;
                             break;
                         }
 

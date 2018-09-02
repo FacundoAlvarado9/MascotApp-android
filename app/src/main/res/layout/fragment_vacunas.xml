@@ -37,21 +37,21 @@
                 android:drawableTop="@drawable/perro"
                 android:id="@+id/btnVacunasPerros"
                 android:background="@color/White"
-                android:padding="10dp"
+                android:padding="10sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="5dp"
-                android:text="Perros" />
+                android:text="@string/perros" />
 
             <Button
                 android:drawableTop="@drawable/gato"
                 android:id="@+id/btnVacunasGatos"
                 android:background="@color/White"
                 android:padding="10dp"
-                android:layout_margin="5dp"
+                android:layout_margin="@dimen/margin_small"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Gatos" />
+                android:text="@string/gatos" />
 
         </LinearLayout>
 

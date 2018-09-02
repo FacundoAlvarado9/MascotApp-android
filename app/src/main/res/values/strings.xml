@@ -1,25 +1,86 @@
 <resources>
     <string name="app_name">MascotApp</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-
-    <!-- Mitos -->
-
-    <!--Titulos-->
-    <string name="titulo_mito_0">¡Bienvenido a la sección de Mitos!</string>
-    <string name="titulo_mito_1">Titulo Prueba</string>
-
-    <!--Descripciones-->
-    <string name="descripcion_mito_0">Vamos a mostrarte ciertos mitos que rondan acerca de las mascotas, y vamos a ver qué de cierto tienen estas afirmaciones.</string>
-    <string name="descripcion_mito_1">Descripcion prueba. Lorem ipsum dolor sit amet consectetur.</string>
-
-
     <string name="app_nombre">MascotApp</string>
     <string name="descripcion_mascotapp1">Aplicación guía para el cuidado de mascotas.</string>
 
     <string name="descripcion_mascotapp2">Desarrollada por el Club de Ciencias del Colegio Nuestra Señora de Fátima. En Río Gallegos, Santa Cruz, Argentina.</string>
     <string name="title_activity_veterinarias">Veterinarias</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Dimensiones-->
+    <dimen name="margin_small">5sp</dimen>
+    <dimen name="margin_medium">10sp</dimen>
+    <dimen name="margin_large">15sp</dimen>
+
+    <dimen name="text_size_sm"></dimen>
+    <dimen name="text_size_md">18sp</dimen>
+    <dimen name="text_size_lg">25sp</dimen>
+
+    <!--In-app resources-->
+
+    <!--Textos repetidos-->
+    <string name="perros">Perros</string>
+    <string name="gatos">Gatos</string>
+
+    <!--Botones-->
+    <string name="btn_anterior">Anterior</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!--Inicio-->
+    <string name="empezar">¡Tocá este botón para empezar!</string>
+
+    <!--Creditos-->
+    <string name="miembro1_nombre">Facundo Alvarado</string>
+    <string name="miembro1_ocupacion">Estudiante</string>
+    <string name="miembro1_tarea">Programador</string>
+    <string name="miembro1_socialLink">linkedin.com/in/facundoalvarado9</string>
+
+    <!--Alimentacion-->
+    <string name="alimentacion_recomendada">Recomendamos una alimentación combinada entre</string>
+    <string name="comida_casera">Comida casera</string>
+    <string name="alimento_balanceado">Alimento balanceado</string>
+    <string name="cantidad">La cantidad debe ser entre 3% y 5% del peso de tu mascota</string>
+
+    <!-- Mitos -->
+
+        <!--Titulos-->
+        <string name="titulo_mito_0">¡Bienvenido a la sección de Mitos!</string>
+        <string name="titulo_mito_1">Los perros sólo ven en blanco y negro</string>
+        <string name="titulo_mito_2">El ajo previene las pulgas</string>
+        <string name="titulo_mito_3">Si el gato pierde los bigotes, ¿Pierde el equilibrio?</string>
+        <string name="titulo_mito_4">Si no cruzo a mi perra, se va a enfermar</string>
+        <string name="titulo_mito_5">Los gatos ronronean sólo cuando están contentos</string>
+        <string name="titulo_mito_6">Alimentar a las mascotas con carne cruda, ¿Es saludable?</string>
+        <string name="titulo_mito_7">Los animales engordan al castrarlos</string>
+        <string name="titulo_mito_8">La saliva del perro cura heridas</string>
+        <string name="titulo_mito_9">Cuando un perro muerde, se le bloquea la mandíbula</string>
+        <string name="titulo_mito_10">Los perros de raza, ¿Tienen peor salud que los mestizos?</string>
+        <string name="titulo_mito_11">Un “año de perro” ¿Son 7 años humanos?</string>
+        <string name="titulo_mito_12">¿Es normal que mi gato vomite bolas de pelo?</string>
+        <string name="titulo_mito_13">Los gatos, ¿Comen ratones?</string>
+
+        <!--Descripciones-->
+        <string name="descripcion_mito_0">Vamos a mostrarte ciertos mitos que rondan acerca de las mascotas, y vamos a ver qué de cierto tienen estas afirmaciones.</string>
+        <string name="descripcion_mito_1">Falso. Los perros ven en gamas de colores. Aunque tienen problemas para diferenciar los tonos rojos y verdes. Por lo que si le compras una pelota, ¡Que sea azul! Así la distingue del pasto.</string>
+        <string name="descripcion_mito_2">Falso. El ajo no interviene de ninguna manera en las pulgas que puede (o no) tener tus animales. De hecho, demasiado ajo puede causarles problemas gastrointestinales o anemia.</string>
+        <string name="descripcion_mito_3">Verdadero. Aunque el equilibrio de los gatos no se reduce sólo a los bigotes, estos pelitos forman parte del complejo sistema con el que nuestros amigos mantienen su equilibrio.</string>
+        <string name="descripcion_mito_4">Falso. No hay ninguna relación entre cruzar a tu perra y las enfermedades. De hecho, la castración puede evitar enfermedades y evitar cachorros no deseados.</string>
+        <string name="descripcion_mito_5">Falso. Los gatos ronronean cuando están contentos, sí. Pero también lo hacen cuando están molestos, incómodos o doloridos incluso.</string>
+        <string name="descripcion_mito_6">Falso. Las bacterias que se encuentran en la carne cruda pueden hacer tanto daño a tu mascota como te puede hacer a vos si las comés.</string>
+        <string name="descripcion_mito_7">No es ni falso, ni verdadero. Hay una realidad: La castración genera un cambio en el metabolismo de las mascotas. Este cambio puede generar una subida en el peso del animal en el corto plazo, aunque con el tiempo tiende normalizarse y volver a su peso normal.</string>
+        <string name="descripcion_mito_8">Falso. La salud bucal de los perros no es la óptima, puede transmitir enfermedades, como la de cualquier animal. Los perros no se lavan los dientes, y no solemos lavárselos tampoco, así que no hay ninguna razón para creer en esto.</string>
+        <string name="descripcion_mito_9">Falso. Los perros tienen total control de su mandíbula, tal como los humanos. En ese sentido, si no suelta la mordida es porque no quiere hacerlo.</string>
+        <string name="descripcion_mito_10">No necesariamente. Algunas razas sí poseen malestares y problemas endémicos. Aunque no todas las razas tienen estos problemas.</string>
+        <string name="descripcion_mito_11">No necesariamente. Se trata de un mito popular, no de algo que se pueda probar fehacientemente. Es más, cada vez se extiende más la expectativa de vida de los perros, por lo que va a ser necesario rehacer los cálculos, si queremos mantener este juego vigente. </string>
+        <string name="descripcion_mito_12">Falso. Si tu gato vomita bolas de pelos, recomendamos que lo lleves con un veterinario, puesto que de seguro se trata de un problema en su sistema digestiva.</string>
+        <string name="descripcion_mito_13">Falso. Los gatos domesticados no comen ratones, y no se recomienda que lo hagan. Aunque distinto puede ser el caso de los gatos salvajes. </string>
+
+
+
+
+
 
 
 </resources>

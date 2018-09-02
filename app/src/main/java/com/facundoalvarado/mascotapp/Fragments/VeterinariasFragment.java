@@ -1,6 +1,5 @@
 package com.facundoalvarado.mascotapp.Fragments;
 
-import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,14 +9,15 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.facundoalvarado.mascotapp.MainActivity;
 import com.facundoalvarado.mascotapp.R;
-import com.facundoalvarado.mascotapp.VeterinariasActivity;
 
 public class VeterinariasFragment extends Fragment {
 
     public VeterinariasFragment(){
     }
+
+    Button btnMapa;
+    final String veterinariasCercanasUrl = "https://www.google.com/maps/search/veterinaria/";
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -25,13 +25,15 @@ public class VeterinariasFragment extends Fragment {
         // Inflate the layout for this fragment
         View  rootView = inflater.inflate(R.layout.fragment_veterinarias, container, false);
 
-        Button btnMapa = (Button) rootView.findViewById(R.id.btnMapa);
+        btnMapa = (Button) rootView.findViewById(R.id.btnMapa);
 
         btnMapa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getActivity(), VeterinariasActivity.class);
-                startActivity(intent);
+
+//                Abriendo un WebView para las veterinarias cercanas
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse(veterinariasCercanasUrl));
+                startActivity(browserIntent);
             }
         });
 

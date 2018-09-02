@@ -41,7 +41,19 @@ public class MitosFragment extends Fragment {
 //    Lista de mitos a utilizar
     private Mito[] mMitosBank = new Mito[]{
             new Mito(R.string.titulo_mito_0, R.string.descripcion_mito_0),
-            new Mito(R.string.titulo_mito_1,R.string.descripcion_mito_1)
+            new Mito(R.string.titulo_mito_1,R.string.descripcion_mito_1),
+            new Mito(R.string.titulo_mito_2, R.string.descripcion_mito_2),
+            new Mito(R.string.titulo_mito_3,R.string.descripcion_mito_3),
+            new Mito(R.string.titulo_mito_4, R.string.descripcion_mito_4),
+            new Mito(R.string.titulo_mito_5,R.string.descripcion_mito_5),
+            new Mito(R.string.titulo_mito_6, R.string.descripcion_mito_6),
+            new Mito(R.string.titulo_mito_7,R.string.descripcion_mito_7),
+            new Mito(R.string.titulo_mito_8, R.string.descripcion_mito_8),
+            new Mito(R.string.titulo_mito_9,R.string.descripcion_mito_9),
+            new Mito(R.string.titulo_mito_10, R.string.descripcion_mito_10),
+            new Mito(R.string.titulo_mito_11,R.string.descripcion_mito_11),
+            new Mito(R.string.titulo_mito_12, R.string.descripcion_mito_12),
+            new Mito(R.string.titulo_mito_13,R.string.descripcion_mito_13)
     };
 
 
@@ -104,7 +116,14 @@ public class MitosFragment extends Fragment {
     }
 
     public void mitoAnterior(){
-        mIndice = (mIndice - 1)*-1;
+
+        if (mIndice > 0){
+            mIndice = mIndice - 1;
+        } else if (mIndice == 0){
+            mIndice = mMitosBank.length -1;
+        }
+
+//        mIndice = (mIndice - 1);
         mMitoTitulo = mMitosBank[mIndice].getTituloID();
         mMitoDescripcion = mMitosBank[mIndice].getDescripcionID();
 
