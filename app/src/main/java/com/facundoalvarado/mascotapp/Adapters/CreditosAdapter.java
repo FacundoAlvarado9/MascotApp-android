@@ -18,7 +18,6 @@ public class CreditosAdapter extends RecyclerView.Adapter<CreditosAdapter.ViewHo
 
     private Context mContext;
     private List<MiembroClub> mListaMiembros;
-    private int mIndice;
 
     public CreditosAdapter(Context context, List<MiembroClub> listaMiembros){
         this.mContext = context;

@@ -43,6 +43,229 @@
     <string name="alimento_balanceado">Alimento balanceado</string>
     <string name="cantidad">La cantidad debe ser entre 3% y 5% del peso de tu mascota</string>
 
+    <!--Enfermedades-->
+
+    <string name="enfermedades_titulo">A continuación te presentamos algunas de las enfermedades más comunes entre las mascotas</string>
+    <string name="aviso_enfermedades">Si tu perro está sintiendo malestares, dolor, o síntomas de enfermedad, llevalo a un veterinario lo antes posible.</string>
+    <string name="aviso_enfermedades2"> Esta guía es solo referencial. No diagnostiques ni mediques a tu mascota sin previa revisión veterinaria.</string>
+
+    <string name="enf_nm_0">Tos de las perreras o Traqueobronquitis Infecciosa canina</string>
+    <string name="enf_anim_0">Perros</string>
+    <string name="enf_origen_0">Contagio de un virus que se propaga en grupos caninos.</string>
+    <string name="enf_prev_0">Buena nutrición, evitar estrés, cuidar higiene y abrigo en épocas frías.</string>
+    <string name="enf_sintomas_0">Catarro y tos.</string>
+    <string name="enf_trat_0">Aislamiento y antitusígenos.</string>
+
+    <string name="enf_nm_1">Gusano del corazón o dirofilariasis</string>
+    <string name="enf_anim_1">Perros y gatos.</string>
+    <string name="enf_origen_1">Picadura de mosquito.</string>
+    <string name="enf_prev_1">Sin prevención.</string>
+    <string name="enf_sintomas_1">Ceguera, ataques epilépticos, cojera, infección generalizada, paro cardíaco.</string>
+    <string name="enf_trat_1">Tetraciclinas.</string>
+
+    <string name="enf_nm_2">Parvovirus o parvovirosis</string>
+    <string name="enf_anim_2">Perros, gatos, conejos y hámsteres.</string>
+    <string name="enf_origen_2">Contacto directo con orina y heces. Transmitida por humanos, garrapatas, aves, pulgas y moscas.</string>
+    <string name="enf_prev_2">No visitar lugares con malas condiciones higiénicas y vacunación.</string>
+    <string name="enf_sintomas_2">Fiebre, diarrea con sangre, vómito, falta de apetito, fatiga, diarrea, infección grave generalizada.</string>
+    <string name="enf_trat_2">Hospitalización y antibióticos.</string>
+
+    <string name="enf_nm_3">Moquillo</string>
+    <string name="enf_anim_3">Perros, gatos y conejos.</string>
+    <string name="enf_origen_3">Contagio por aire del morbillivirus</string>
+    <string name="enf_prev_3">Evitar lugares poco higiénicos, vacunación, alimentación balanceada, ejercicio.</string>
+    <string name="enf_sintomas_3">Fiebre, tos, cansancio, falta de apetito, diarrea, vómito, desnutrición, deshidratación, convulsiones, parálisis.</string>
+    <string name="enf_trat_3">Aislamiento, higiene, hospitalización.</string>
+
+    <string name="enf_nm_4">Artrosis</string>
+    <string name="enf_anim_4">Perros, gatos, conejos, hámsteres.</string>
+    <string name="enf_origen_4">Envejecimiento, desgaste de articulaciones, genética, sobrepeso.</string>
+    <string name="enf_prev_4">Controlar peso, alimentación balanceada y ejercicio.</string>
+    <string name="enf_sintomas_4">Caminar rígido en el animal, encorvamiento, sedentarismo, falta de apetito.</string>
+    <string name="enf_trat_4">Calor en zonas afectadas, masajes, ejercicios de bajo impacto.</string>
+
+    <string name="enf_nm_5">Rabia</string>
+    <string name="enf_anim_5">Perros, gatos, conejos, hámsteres</string>
+    <string name="enf_origen_5">Contagio por heridas.</string>
+    <string name="enf_prev_5">Vacunación. Lavar heridas con agua y jabón</string>
+    <string name="enf_sintomas_5">Nerviosismo constante en el animal; aislamiento; agresividad; convulsiones; parálisis de cuello y cabeza; desorientación.</string>
+    <string name="enf_trat_5">No existe tratamiento 100% efectivo.</string>
+
+    <string name="enf_nm_6">Conjuntivitis e infección de ojos</string>
+    <string name="enf_anim_6">Perros, gatos, conejos y hámsteres.</string>
+    <string name="enf_origen_6">Viral. Irritación por polvo o humo (incluso de tabaco).</string>
+    <string name="enf_prev_6">Mantener el entorno del animal limpio y desinfectado.</string>
+    <string name="enf_sintomas_6">Inflamación de los ojos, secreciones, ojos pegados por lagañas.</string>
+    <string name="enf_trat_6">Gotas oftalmológicas.</string>
+
+    <string name="enf_nm_7">Inmunodeficiencia felina</string>
+    <string name="enf_anim_7">Gatos</string>
+    <string name="enf_origen_7">Lentivirus</string>
+    <string name="enf_prev_7">No tiene.</string>
+    <string name="enf_sintomas_7">Infecciones en la boca, patologías respiratorias, infecciones intestinales, pérdida de peso.</string>
+    <string name="enf_trat_7">No tiene.</string>
+
+    <string name="enf_nm_8">Alergias</string>
+    <string name="enf_anim_8">Gatos</string>
+    <string name="enf_origen_8">Plantas, polen, hongos, perfumes, humo de tabaco, picaduras de pulga, alimentos, o incluso humanos.</string>
+    <string name="enf_prev_8">-</string>
+    <string name="enf_sintomas_8">Tos, estornudos, secreciones en nariz y ojos, falta de pelo, vómitos, diarrea.</string>
+    <string name="enf_trat_8">Antibióticos.</string>
+
+    <string name="enf_nm_9">Peritonitis felina.</string>
+    <string name="enf_anim_9">Gatos</string>
+    <string name="enf_origen_9">Viral.</string>
+    <string name="enf_prev_9">Vacunación.</string>
+    <string name="enf_sintomas_9">Fiebre, anorecia, aumento del volumen abdominal.</string>
+    <string name="enf_trat_9">No tiene</string>
+
+    <string name="enf_nm_10">Problemas Gastrointestinales</string>
+    <string name="enf_anim_10">Gatos</string>
+    <string name="enf_origen_10">Ingerie alimentos en mal estado, bacterias, parásitos, virus.</string>
+    <string name="enf_prev_10">Dieta equilibrada.</string>
+    <string name="enf_sintomas_10">Diarrea, vómitos, dolor abdominal, pérdida del apetito.</string>
+    <string name="enf_trat_10">Dieta que reactive el proceso digestivo.</string>
+
+    <string name="enf_nm_11">Cistitis</string>
+    <string name="enf_anim_11">Perros, gatos, conejos, hámsteres</string>
+    <string name="enf_origen_11">Infección en la vejiga urinaria. Causada por bacterias.</string>
+    <string name="enf_prev_11">Higiene, hidratación, alimentación balanceada, vacunación.</string>
+    <string name="enf_sintomas_11">Quejas constantes, expulsión de orina frecuente, hiperactividad, beber más agua de lo normal.</string>
+    <string name="enf_trat_11">Antibióticos y beber agua.</string>
+
+    <string name="enf_nm_12">Leishmaniosis</string>
+    <string name="enf_anim_12">Perros, gatos, conejos y hámsteres</string>
+    <string name="enf_origen_12">Picadura de mosquito</string>
+    <string name="enf_prev_12">Vacunación, control antiparasitario, fumigación del hogar, repeler y prevenir presencia de mosquitos en el hogar.</string>
+    <string name="enf_sintomas_12">Fiebre, pérdida de pelo, hemorragia nasal, inflamación abdominal.</string>
+    <string name="enf_trat_12">No eciste tratamiento efectivo.</string>
+
+    <string name="enf_nm_13">Pasteurelosis</string>
+    <string name="enf_anim_13">Conejos</string>
+    <string name="enf_origen_13">Bacterial. Polvillo, ambiente, clima, estrés.</string>
+    <string name="enf_prev_13">Ventilación del hogar. Buena higiene en el heno.</string>
+    <string name="enf_sintomas_13">Estornudos, ronquidos, secreciones nasales.</string>
+    <string name="enf_trat_13">Antibióticos.</string>
+
+    <string name="enf_nm_14">Neumonía</string>
+    <string name="enf_anim_14">Conejos</string>
+    <string name="enf_origen_14">Viral</string>
+    <string name="enf_prev_14">Ambiente saludable, cuidado de la salud dental.</string>
+    <string name="enf_sintomas_14">Estornudos, ronquidos, tos, mucosidad.</string>
+    <string name="enf_trat_14">Antibióticos, antivirales y antufúgicos.</string>
+
+    <string name="enf_nm_15">Abscesos en la piel</string>
+    <string name="enf_anim_15">Conejos</string>
+    <string name="enf_origen_15">Viral, bacterias.</string>
+    <string name="enf_prev_15"></string>
+    <string name="enf_sintomas_15">Bultos en la piel</string>
+    <string name="enf_trat_15">Curas diarias</string>
+
+    <string name="enf_nm_16">Tarsos ulcerados</string>
+    <string name="enf_anim_16">Conejos</string>
+    <string name="enf_origen_16">Viral</string>
+    <string name="enf_prev_16">Mantener al conejo en un ambiente seco.</string>
+    <string name="enf_sintomas_16">Heridas abiertas que sangran y no cierran.</string>
+    <string name="enf_trat_16">Desinfectar jaula y entorno. Antibióticos. Antiinflamatorios. Antisépticos. Pomadas</string>
+
+    <string name="enf_nm_17">Taularemia</string>
+    <string name="enf_anim_17">Conejos</string>
+    <string name="enf_origen_17">Viral, pulgas, ácaros.</string>
+    <string name="enf_prev_17">Evitar contacto con animales desconocidos. Desparasitar. Tener a los conejos en el interior.</string>
+    <string name="enf_sintomas_17">El conejo deja de comer. Fiebre. Úlceras.</string>
+    <string name="enf_trat_17">Antibióticos.</string>
+
+    <string name="enf_nm_18">Coccidiosis</string>
+    <string name="enf_anim_18">Conejos</string>
+    <string name="enf_origen_18">Parasitaria</string>
+    <string name="enf_prev_18">Mantener jaulas higiénicas.</string>
+    <string name="enf_sintomas_18">Pérdida de pelo. Gases. Diarrea. El conejo deja de beber y comer.</string>
+    <string name="enf_trat_18">Antibióticos.</string>
+
+    <string name="enf_nm_19">Mastitis</string>
+    <string name="enf_anim_19">Conejos</string>
+    <string name="enf_origen_19">Bacterial.</string>
+    <string name="enf_prev_19">Mantener jaulas higiénicas.</string>
+    <string name="enf_sintomas_19">Fiebre. Inflamación de glándulas mamarias.</string>
+    <string name="enf_trat_19">Antibióicos.</string>
+
+    <string name="enf_nm_20">Tiña</string>
+    <string name="enf_anim_20">Conejos</string>
+    <string name="enf_origen_20">Hongo.</string>
+    <string name="enf_prev_20">No tener contacto con conejos infectados.</string>
+    <string name="enf_sintomas_20">Pérdida de pelo. Costras en la piel.</string>
+    <string name="enf_trat_20">Cambiar su entorno. Recorte de pelaje. Antifúngicos.</string>
+
+    <string name="enf_nm_21">Diarrea en conejos</string>
+    <string name="enf_anim_21">Conejos</string>
+    <string name="enf_origen_21">Mala alimentación</string>
+    <string name="enf_prev_21">Limpiar y desinfectar jaula. No sobrealimentar al conejo.</string>
+    <string name="enf_sintomas_21">Decaimiento. Falta de apetito. Deshidratación.</string>
+    <string name="enf_trat_21">Vitaminas. Prebióticos. Complementos nutricionales.</string>
+
+    <string name="enf_nm_22">Sarna</string>
+    <string name="enf_anim_22">Perros, gatos, conejos</string>
+    <string name="enf_origen_22">Parasitario</string>
+    <string name="enf_prev_22">No tener contcto con conejos infectados. Mantener un ambiente saludable y una jaula limpia.</string>
+    <string name="enf_sintomas_22">Picor. Heridas. Costras.</string>
+    <string name="enf_trat_22">Ivermectina.</string>
+
+    <string name="enf_nm_23">Infección por coliformes.</string>
+    <string name="enf_anim_23">Conejos</string>
+    <string name="enf_origen_23">Bacteriano.</string>
+    <string name="enf_prev_23">Nutrición óptima.</string>
+    <string name="enf_sintomas_23">Diarrea, pérdida del apetito, deshidratación.</string>
+    <string name="enf_trat_23">Inyectables.</string>
+
+    <string name="enf_nm_24">Sobrecrecimiento dental</string>
+    <string name="enf_anim_24">Conejos</string>
+    <string name="enf_origen_24">Malformaciones</string>
+    <string name="enf_prev_24">Limar los dientes regularmente. Darle madera para roer.</string>
+    <string name="enf_sintomas_24">El conejo deja de comer.</string>
+    <string name="enf_trat_24">Recortar los dientes.</string>
+
+    <string name="enf_nm_25">Catarro</string>
+    <string name="enf_anim_25">Conejos</string>
+    <string name="enf_origen_25">Viral</string>
+    <string name="enf_prev_25">No exponer al conejo en la humedad y a las corrientes de aire.</string>
+    <string name="enf_sintomas_25">Estornudos. Ojos llorosos. Secreciones nasales.</string>
+    <string name="enf_trat_25">Antibióticos.</string>
+
+    <string name="enf_nm_26">Alopecia</string>
+    <string name="enf_anim_26">Conejos</string>
+    <string name="enf_origen_26">Déficit de alimentos, vitaminas y nutrientes.</string>
+    <string name="enf_prev_26">Prevenir déficits en alimentación.</string>
+    <string name="enf_sintomas_26">Pérdida de pelo.</string>
+    <string name="enf_trat_26">Dieta balanceada y suplementos dietarios.</string>
+
+    <string name="enf_nm_27">Entropión</string>
+    <string name="enf_anim_27">Conejos</string>
+    <string name="enf_origen_27">Malformación</string>
+    <string name="enf_prev_27">No tiene</string>
+    <string name="enf_sintomas_27">Irritación y supuración en el lagrimal.</string>
+    <string name="enf_trat_27">Cirugía.</string>
+
+    <string name="enf_nm_28">Obesidad</string>
+    <string name="enf_anim_28">Conejos</string>
+    <string name="enf_origen_28">Mala alimentación. Falta de ejercicio diario.</string>
+    <string name="enf_prev_28">Regular la cantidad de alimento. Ejercicio diario.</string>
+    <string name="enf_sintomas_28">El conejo engorda</string>
+    <string name="enf_trat_28">Dieta adecuada. Entrenamiento.</string>
+
+    <string name="enf_nm_29">Cáncer de útero en conejos</string>
+    <string name="enf_anim_29">Conejos</string>
+    <string name="enf_origen_29">Tumor maligno</string>
+    <string name="enf_prev_29">Castración</string>
+    <string name="enf_sintomas_29">Sangre en la orina. Agresividad. Falta de apetito. Crecimiento mamario.</string>
+    <string name="enf_trat_29">Cirugía. Quimioterapia. Medicamentos.</string>
+
+    <!--<string name="enf_nm_"></string>-->
+    <!--<string name="enf_anim_"></string>-->
+    <!--<string name="enf_origen_"></string>-->
+    <!--<string name="enf_sintomas_"></string>-->
+    <!--<string name="enf_trat_"></string>-->
+    <!---->
+
     <!-- Mitos -->
 
         <!--Titulos-->

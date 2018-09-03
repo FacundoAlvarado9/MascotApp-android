@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="10dp"
+        android:layout_margin="@dimen/margin_large"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toEndOf="@+id/enfTratamiento">
+
+
+
+            <TextView
+                android:id="@+id/enfNombre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginTop="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_md"
+                android:text="Otitis" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:textColor="@color/Black"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/text_size_sm"
+                    android:text="Afecta a: " />
+
+            <TextView
+                android:id="@+id/enfAnimales"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Perros, gatos hamsteres" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Origen: " />
+
+            <TextView
+                android:id="@+id/enfOrigen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Origen: " />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Síntomas: " />
+
+
+            <TextView
+                android:id="@+id/enfSintomas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Síntomas: " />
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="@dimen/margin_small"-->
+                <!--android:textColor="@color/Black"-->
+                <!--android:textStyle="bold"-->
+                <!--android:textSize="@dimen/text_size_sm"-->
+                <!--android:text="Prevención: " />-->
+
+            <TextView
+                android:id="@+id/enfPrev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Prevención: " />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textStyle="bold"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Tratamiento: " />
+
+            <TextView
+                android:id="@+id/enfTratamiento"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Tratamiento: " />
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
