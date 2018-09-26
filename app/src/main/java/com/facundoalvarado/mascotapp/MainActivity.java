@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         menuItems.add(new MenuItem("Mitos", R.drawable.mitos_bg));
         menuItems.add(new MenuItem("Enfermedades", R.drawable.enfermedades_bg));
         menuItems.add(new MenuItem("Veterinarias", R.drawable.veterinarias_bg));
-//        menuItems.add(new MenuItem("Créditos", R.drawable.guia_bg));
+        menuItems.add(new MenuItem("Créditos", R.drawable.guia_bg));
 //        Añadiendo objetos al menu
         sNavigationDrawer.setMenuItemList(menuItems);
 
@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity {
                         }case 4:{
                             fragmentClass = VeterinariasFragment.class;
                             break;
-//                        }case 5:{
-//                            fragmentClass = CreditosFragment.class;
-//                            break;
+                        }case 5:{
+                            fragmentClass = CreditosFragment.class;
+                            break;
                         }
 
 

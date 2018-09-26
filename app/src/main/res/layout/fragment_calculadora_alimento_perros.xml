@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.calculadoraAlimentoPerros"
+    android:background="@color/White"
+    android:isScrollContainer="false">
+
+    <FrameLayout
+        android:id="@+id/frameCalcP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:textSize="@dimen/text_size_lg"
+                android:textAlignment="center"
+                android:layout_marginBottom="10dp"
+                android:textStyle="bold"
+                android:text="Completa los datos"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:text="@string/pedido_peso_p"
+                    android:textSize="@dimen/text_size_md"
+                    android:textStyle="bold"
+                    android:textColor="@color/Black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/editTextPesoPerros"
+                    android:inputType="number"
+                    android:hint="Ej. 25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnCalcuPerros"
+                android:text="@string/calcular"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_centerInParent="true"
+                android:isScrollContainer="false">
+
+                <TextView
+                    android:id="@+id/resultadoCP"
+                    android:textStyle="bold"
+                    android:textSize="50dp"
+                    android:textColor="@color/colorMain"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/acomp_resultado"
+                    android:textStyle="bold"
+                    android:textSize="16dp"
+                    android:textAlignment="center"
+                    android:layout_marginBottom="@dimen/margin_medium"
+                    android:textColor="@color/colorMain"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:text="@string/advertencia_calc"
+                    android:layout_marginHorizontal="@dimen/text_size_md"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/volverPerros"
+                    android:text="@string/volver"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/text_size_md"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</RelativeLayout>

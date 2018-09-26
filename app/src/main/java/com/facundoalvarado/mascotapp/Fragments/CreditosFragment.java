@@ -36,22 +36,25 @@ public class CreditosFragment extends Fragment {
 
         listaMiembros = new ArrayList<>();
 
-//        MiembroClub[] lista = new MiembroClub[]{
-//                new MiembroClub("Facundo Alvarado", "Estudiante", "Programador", "linkedin.com/in/facundoalvarado9", R.drawable.fotoPepa),
-//                new MiembroClub("Aluen Ruiz", "Estudiante", "Investigación", "lelele", R.drawable.fotoAluen),
-//                new MiembroClub("Aaron Gelves", "Estudiante", "Investigación", "lelele", R.drawable.fotoAaron),
-//                new MiembroClub("Elaine Soria", "Estudiante", "Investigación", "lelelele", R.drawable.fotoElaine),
-//                new MiembroClub("Federico Vargas", "Estudiante", "Investigación y redacción", "lelele", R.drawable.fotoFederico),
-//                new MiembroClub("Sabrina Vay", "Estudiante", "Investigación", "lelele", R.drawable.fotoSabrina),
-//                new MiembroClub("Juan José Muñoz Viejo", "Estudiante", "Diseño e Investigación", "lelele", R.drawable.fotoJuan),
-//                new MiembroClub("Bryan Casella", "Estudiante", "Investigación", "lelele", R.drawable.fotoBryan),
-//                new MiembroClub("Julián Bringas", "Estudiante", "Investigación", "lelele", R.drawable.fotoJulian),
-//                new MiembroClub("Lucas Oyarzo", "Estudiante", "Investigación", "lelele", R.drawable.fotoLucas),
-//                new MiembroClub("Jesús Ruiz", "Estudiante", "Investigación", "lelele", R.drawable.fotoJesus),
-//
-//        };
-//
-//        listaMiembros.addAll(Arrays.asList(lista));
+        MiembroClub[] lista = new MiembroClub[]{
+                new MiembroClub("Facundo Alvarado", "Estudiante", "Programación y publicación.", "linkedin.com/in/facundoalvarado9", R.drawable.pepa_img),
+                new MiembroClub("Aaron Gelves", "Estudiante", "Investigación", "", R.drawable.aaron_img),
+                new MiembroClub("Juan José Muñoz Viejo", "Estudiante", "Diseño e Investigación", "", R.drawable.juanjo_img),
+                new MiembroClub("Bryan Casella", "Estudiante", "Investigación", "", R.drawable.bryan_img),
+                new MiembroClub("Julián Bringas", "Estudiante", "Investigación", "", R.drawable.julian_img),
+                new MiembroClub("Elaine Soria", "Estudiante", "Investigación", "", R.drawable.elaine_img),
+                new MiembroClub("Federico Vargas", "Estudiante", "Investigación y redacción", "", R.drawable.fede_img),
+                new MiembroClub("Aluen Ruiz", "Estudiante", "Investigación", "", R.drawable.aluen_img),
+                new MiembroClub("Sabrina Vay", "Estudiante", "Investigación", "", R.drawable.sabrina_img),
+                new MiembroClub("Lucas Oyarzo", "Estudiante", "Investigación", "", R.drawable.blank_tall),
+                new MiembroClub("Jesús Ruiz", "Estudiante", "Investigación", "", R.drawable.blank_tall),
+                new MiembroClub("Juan Pablo Tomatis", "Profesor y Veterinario", "Agradecimiento por el gran aporte al proyecto.", "", R.drawable.blank_tall),
+                new MiembroClub("Silvia Caticura", "Profesora", "Acompañante", "", R.drawable.blank_tall),
+                new MiembroClub("Nelly Guenchur", "Profesora", "Acompañante", "", R.drawable.blank_tall),
+                new MiembroClub("Pablo Paiva", "Profesor", "Acompañante", "", R.drawable.blank_tall),
+        };
+
+        listaMiembros.addAll(Arrays.asList(lista));
 
         mAdapter = new CreditosAdapter(getActivity(), listaMiembros);
         mRecyclerView.setAdapter(mAdapter);

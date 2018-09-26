@@ -8,6 +8,7 @@
         android:id="@+id/credits_cardView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
         app:cardCornerRadius="10sp">
 
         <LinearLayout
@@ -19,6 +20,9 @@
             <ImageView
                 android:id="@+id/imgPersona"
                 android:layout_margin="@dimen/margin_small"
+                android:adjustViewBounds="true"
+                android:maxHeight="70sp"
+                android:maxWidth="70sp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" />
 

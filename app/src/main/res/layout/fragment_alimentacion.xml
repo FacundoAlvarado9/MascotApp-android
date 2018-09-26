@@ -6,81 +6,97 @@
     android:background="@drawable/gradient_4"
     tools:context=".Fragments.AlimentacionFragment">
 
-    <LinearLayout
+    <FrameLayout
+        android:id="@+id/FrameAlim"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_vertical"
-        android:orientation="vertical"
-        android:layout_margin="@dimen/margin_large">
-
-        <TextView
-            android:text="@string/alimentacion_recomendada"
-            android:textColor="@color/White"
-            android:textStyle="bold"
-            android:textAlignment="center"
-            android:textSize="@dimen/text_size_lg"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        android:layout_gravity="center_vertical">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="@dimen/margin_large">
-
-                <ImageView
-                    android:src="@drawable/bife"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:text="@string/comida_casera"
-                    android:textColor="@color/White"
-                    android:textAlignment="center"
-                    android:textStyle="bold"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical"
-                android:layout_margin="@dimen/margin_large">
-
-                <ImageView
-                    android:src="@drawable/comida_perro"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="@string/alimento_balanceado"
-                    android:textAlignment="center"
-                    android:textColor="@color/White"
-                    android:textStyle="bold" />
-
-            </LinearLayout>
-
-        </LinearLayout>
-
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/cantidad"
-            android:textAlignment="center"
-            android:textColor="@color/White"
-            android:textSize="@dimen/text_size_lg"
-            android:textStyle="bold" />
-    </LinearLayout>
+            android:layout_gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_margin="@dimen/margin_large">
+
+            <TextView
+                android:text="@string/alimentacion_recomendada"
+                android:textColor="@color/White"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textSize="@dimen/text_size_lg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/margin_large">
+
+                    <ImageView
+                        android:src="@drawable/bife"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:text="@string/comida_casera"
+                        android:textColor="@color/White"
+                        android:textAlignment="center"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/margin_large">
+
+                    <ImageView
+                        android:src="@drawable/comida_perro"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/alimento_balanceado"
+                        android:textAlignment="center"
+                        android:textColor="@color/White"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cantidad"
+                android:textAlignment="center"
+                android:textColor="@color/White"
+                android:textSize="@dimen/text_size_lg"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/irACalc"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@color/White"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ir a la Calculadora de alimento" />
+        </LinearLayout>
+
+    </FrameLayout>
 
 </FrameLayout>

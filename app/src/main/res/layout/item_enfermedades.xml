@@ -96,9 +96,20 @@
                 <!--android:text="Prevención: " />-->
 
             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/margin_small"
+                android:textColor="@color/Black"
+                android:textSize="@dimen/text_size_sm"
+                android:text="Prevención: " />
+
+
+            <TextView
                 android:id="@+id/enfPrev"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
                 android:layout_marginLeft="@dimen/margin_small"
                 android:textColor="@color/Black"
                 android:textSize="@dimen/text_size_sm"
