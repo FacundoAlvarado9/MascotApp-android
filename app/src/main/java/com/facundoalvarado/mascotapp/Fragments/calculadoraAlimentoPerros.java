@@ -39,9 +39,12 @@ public class calculadoraAlimentoPerros extends Fragment {
             @Override
             public void onClick(View v) {
                 String pesoEntrada = pesoPerro.getText().toString();
-                int peso = Integer.parseInt(pesoEntrada);
-
-                calcularPeso(peso);
+                if (pesoEntrada.matches("")){
+                    Toast.makeText(getActivity(), "Por favor, ingresa un número e intenta nuevamente.", Toast.LENGTH_SHORT).show();
+                } else {
+                    int peso = Integer.parseInt(pesoEntrada);
+                    calcularPeso(peso);
+                }
             }
         });
 

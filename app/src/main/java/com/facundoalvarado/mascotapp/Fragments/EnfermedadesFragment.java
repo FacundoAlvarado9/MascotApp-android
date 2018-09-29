@@ -38,6 +38,7 @@ public class EnfermedadesFragment extends Fragment {
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
 
+
         listaEnfermedades = new ArrayList<>();
 
         Enfermedad[] lista = new Enfermedad[] {

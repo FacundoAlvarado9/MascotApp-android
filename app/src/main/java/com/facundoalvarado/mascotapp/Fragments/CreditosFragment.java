@@ -37,7 +37,7 @@ public class CreditosFragment extends Fragment {
         listaMiembros = new ArrayList<>();
 
         MiembroClub[] lista = new MiembroClub[]{
-                new MiembroClub("Facundo Alvarado", "Estudiante", "Programación y publicación.", "linkedin.com/in/facundoalvarado9", R.drawable.pepa_img),
+                new MiembroClub("Facundo Alvarado", "Estudiante", "Programación y publicación", "linkedin.com/in/facundoalvarado9", R.drawable.pepa_img),
                 new MiembroClub("Aaron Gelves", "Estudiante", "Investigación", "", R.drawable.aaron_img),
                 new MiembroClub("Juan José Muñoz Viejo", "Estudiante", "Diseño e Investigación", "", R.drawable.juanjo_img),
                 new MiembroClub("Bryan Casella", "Estudiante", "Investigación", "", R.drawable.bryan_img),

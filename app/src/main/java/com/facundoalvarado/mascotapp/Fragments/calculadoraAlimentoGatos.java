@@ -11,6 +11,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.facundoalvarado.mascotapp.R;
 
@@ -41,9 +42,12 @@ public class calculadoraAlimentoGatos extends Fragment {
             @Override
             public void onClick(View v) {
                 String pesoEntrada = pesoGato.getText().toString();
-                int peso = Integer.parseInt(pesoEntrada);
-
-                calcularPeso(peso);
+                if (pesoEntrada.matches("")){
+                    Toast.makeText(getActivity(), "Por favor, ingresa un número e intenta nuevamente.", Toast.LENGTH_SHORT).show();
+                } else {
+                    int peso = Integer.parseInt(pesoEntrada);
+                    calcularPeso(peso);
+                }
             }
         });
 
