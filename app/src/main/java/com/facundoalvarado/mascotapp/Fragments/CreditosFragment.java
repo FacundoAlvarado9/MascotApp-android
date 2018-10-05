@@ -48,10 +48,10 @@ public class CreditosFragment extends Fragment {
                 new MiembroClub("Sabrina Vay", "Estudiante", "Investigación", "", R.drawable.sabrina_img),
                 new MiembroClub("Lucas Oyarzo", "Estudiante", "Investigación", "", R.drawable.blank_tall),
                 new MiembroClub("Jesús Ruiz", "Estudiante", "Investigación", "", R.drawable.blank_tall),
-                new MiembroClub("Juan Pablo Tomatis", "Profesor y Veterinario", "Agradecimiento por el gran aporte al proyecto.", "", R.drawable.blank_tall),
-                new MiembroClub("Silvia Caticura", "Profesora", "Acompañante", "", R.drawable.blank_tall),
-                new MiembroClub("Nelly Guenchur", "Profesora", "Acompañante", "", R.drawable.blank_tall),
-                new MiembroClub("Pablo Paiva", "Profesor", "Acompañante", "", R.drawable.blank_tall),
+                new MiembroClub("Juan Pablo Tomatis", "Profesor y Veterinario", "Asesor científico", "", R.drawable.blank_tall),
+                new MiembroClub("Silvia Caticura", "Profesora", "Docentes responsables", "", R.drawable.blank_tall),
+                new MiembroClub("Nelly Guenchur", "Profesora", "Docentes responsables", "", R.drawable.blank_tall),
+                new MiembroClub("Pablo Paiva", "Profesor", "Docentes responsables", "", R.drawable.blank_tall),
         };
 
         listaMiembros.addAll(Arrays.asList(lista));
