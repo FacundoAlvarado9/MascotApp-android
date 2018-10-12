@@ -9,3 +9,5 @@ MascotApp es una aplicación que servirá a los dueños de mascotas como una peq
 - Mitos acerca de mascotas.
 - Una pequeña guía de enfermedades.
 - La ubicación de veterinarias en la Ciudad de Río Gallegos.
+
+**La aplicación puede encontrarse en bit.ly/MascotApp**
