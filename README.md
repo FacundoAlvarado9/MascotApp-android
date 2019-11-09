@@ -1,10 +1,3 @@
-# MascotApp-android (deprecated - obsoleta)
-**Versión obsoleta, sin soporte ni actualizaciones.**
-
-**Se reinció el desarrollo de la aplicación.**
-
-**Podés encontrar la nueva versión de la app en el nuevo repositorio.**
-
 Repositorio de la aplicación propuesta por el Club de Ciencias del Colegio Nuestra Señora de Fátima de Río Gallegos, Argentina.
 
 ## ¿De qué se trata?
